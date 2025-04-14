@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Anuphan", sans-serif;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1734px;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: auto;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+.rounded-1 {
+  border-radius: 10px !important;
+}
+.rounded-2 {
+  border-radius: 20px !important;
+}
+.rounded-3 {
+  border-radius: 30px !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+.text-black-50 {
+  color: #000 !important;
+}
+.bg-danger{
+  background: linear-gradient(
+    90deg,
+    rgba(24, 6, 10, 1) 0%,
+    rgba(86, 7, 23, 1) 50%,
+    rgba(144, 1, 30, 1) 75%,
+    rgba(102, 10, 33, 1) 100%
+  ) !important;
+}
+
+
+
+
+.text-danger {
+  color: #886B7D !important;
+}
+.text-secondary{
+  color: #171717 !important;
+}
+
+.bg-secondary{
+  background-color:  #BDC0A1 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+/* 0 */
+
+.ls-001 {
+  letter-spacing: -0.01em;
+}
+.ls-002 {
+  letter-spacing: -0.02em;
+}
+.ls-003 {
+  letter-spacing: -0.03em;
+}
+.ls-100 {
+  letter-spacing: 0.1em;
+}
+.ls-150 {
+  letter-spacing: 0.15em;
+}
+.ls-200 {
+  letter-spacing: 0.2em;
+}
+.ls-300 {
+  letter-spacing: 0.03em;
+}
+.ls-500 {
+  letter-spacing: 0.05em;
+}
+.ls-002 {
+  letter-spacing: -0.02em;
+}
+.ls-004 {
+  letter-spacing: -0.04em;
+}
+
+/* 0 */
+
+/* 01 */
+h1, .h1{
+  font-size: 85px;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+
+.fs-25 {
+  font-size: 25px !important;
+}
+.fs-27 {
+  font-size: 27px ;
+}
+.fs-21 {
+  font-size: 21px ;
+}
+.fs-22 {
+  font-size: 22px ;
+}
+.fs-23 {
+  font-size: 23px ;
+}
+.fs-28 {
+  font-size: 28px ;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-44 {
+  font-size: 44px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-54 {
+  font-size: 54px;
+}
+
+/* 01 */
+
+/* 02 */
+.lh-0-9 {
+  line-height: 0.9;
+}
+.lh-1-2 {
+  line-height: 1.2;
+}
+.lh-1-3 {
+  line-height: 1.3;
+}
+.lh-1-4 {
+  line-height: 1.4;
+}
+.lh-1-5 {
+  line-height: 1.5;
+}
+.lh-1-7 {
+  line-height: 1.7;
+}
+.lh-1-8 {
+  line-height: 1.8;
+}
+.lh-2 {
+  line-height: 2;
+}
+/* 02 */
+/* .text-shadow {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+} */
+.btn {
+  padding: 9px 51px;
+  border: 1px solid;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 23px;
+  line-height: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header-btn{
+  padding: 7px 18px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.welcome-btn {
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 700;
+  padding: 6px 68px;
+}
+
+.btn-light{
+   color: #fff;
+  background-color: transparent;
+  border-color: #fff; 
+}
+.btn-danger{
+     color: #fff;
+  background-color: #90011E;
+  border-color: #90011E; 
+}
+.banner-btn a {
+    padding: 16px 110px;
+}
+.news-btn {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 92px;
+}
+
+/* .scroll header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 99;
+} */
+.navbar-brand {
+  display: inline-block;
+  width: 350px;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 !important;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navbar-nav > li + li {
+  margin-left: 30px;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #90011e;
+}
+
+button#ScrollToTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  z-index: 99;
+  color: #000;
+}
+
+button#ScrollToTop:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  div#navbarOffcanvas {
+    position: inherit !important;
+    flex-direction: row;
+    visibility: visible;
+    width: auto;
+    transform: translateX(0%);
+    border-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+  }
+  .offcanvas-body {
+    flex-grow: 0;
+    padding: 0;
+          overflow-y: visible;
+  }
+}
+.carousel-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0 0 0 / 50%);
+}
+.volunteering-text h3 {
+  min-height: 105px;
+}
+.footer-bx ul li {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.footer-bx h3 {
+  min-height: 80px;
+}
+
+footer.bg-danger{
+  background: #49000f !important;
+}
+
+
+
+
+@media(max-width:1700px){
+  .navbar-brand {
+    width: 280px;
+}
+.navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-nav > li + li {
+    margin-left: 20px;
+}
+.sec-logo img {
+    width: 60px;
+}
+h1, .h1 {
+    font-size: 70px;
+}
+.fs-35 {
+    font-size: 28px;
+}
+.btn {
+  padding: 9px 40px;
+  font-size: 18px;
+}
+.header-btn {
+  padding: 7px 12px;
+  font-size: 15px;
+}
+.welcome-btn {
+    font-size: 22px;
+    padding: 6px 50px;
+}
+.fs-44 {
+    font-size: 34px;
+}
+.volunteering-text h3 {
+    min-height: 83px;
+}
+.fs-23 {
+    font-size: 18px;
+}
+
+.news-btn {
+    font-size: 17px;
+    padding: 10px 80px;
+}
+.fs-32 {
+    font-size: 24px;
+}
+.footer-bx h3 {
+    min-height: 60px;
+}
+.footer-bx ul li {
+    font-size: 18px;
+}
+.fs-25 {
+    font-size: 22px !important;
+}
+.fs-16 {
+    font-size: 14px;
+}
+}
+@media(max-width:1400px){
+  .navbar-brand {
+    width: 220px;
+}
+.btn {
+    padding: 9px 30px;
+    font-size: 14px;
+}
+.header-btn {
+  padding: 7px 12px;
+  font-size: 15px;
+}
+.sec-logo img {
+    width: 50px;
+}
+.navbar-nav > li + li {
+    margin-left: 15px;
+}
+.navbar-nav .nav-link {
+    font-size: 13px;
+}
+h1, .h1 {
+    font-size: 60px;
+}
+.fs-35 {
+    font-size: 24px;
+}
+.welcome-btn {
+    font-size: 18px;
+    padding: 4px 30px;
+}
+.fs-44 {
+    font-size: 28px;
+}
+.volunteering-text h3 {
+    min-height: 70px;
+}
+.fs-23 {
+    font-size: 16px;
+}
+.news-btn {
+    font-size: 15px;
+    padding: 10px 55px;
+}
+.fs-32 {
+  font-size: 20px;
+}
+.footer-bx ul li {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 20px !important;
+}
+.fs-16 {
+  font-size: 12px;
+}
+.footer-bx h3 {
+  min-height: 50px;
+}
+}
+@media(max-width:1200px){
+  .btn {
+    padding: 9px 30px;
+    font-size: 12px;
+  }
+  .navbar-brand {
+    width: 180px;
+}
+.navbar-nav .nav-link {
+    font-size: 11px;
+}
+.header-btn{
+    padding: 8px 10px;
+    font-size: 11px;
+}
+.sec-logo img {
+    width: 45px;
+}
+h1, .h1 {
+    font-size: 52px;
+}
+.fs-35 {
+    font-size: 20px;
+}
+.welcome-btn {
+    font-size: 15px;
+    padding: 1px 25px;
+}
+.fs-44 {
+    font-size: 22px;
+}
+.volunteering-text h3 {
+    min-height: 53px;
+}
+.fs-23 {
+  font-size: 14px;
+}
+
+.footer-bx ul li {
+  font-size: 13px;
+}
+}
+
+@media (max-width: 991px) {
+
+
+  .navbar-toggler {
+    font-size: 30px;
+    padding: 0;
+    color: #fff;
+  }
+  .navbar-nav .nav-link {
+    margin: 8px 0px;
+}
+.header-btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+  .navbar-toggler-icon {
+    width: auto;
+    height: auto;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  div#navbarOffcanvas {
+    background: #000;
+    border-right: 0 !important;
+    padding: 35px !important;
+    width: 300px;
+  }
+  .navbar-nav > li + li {
+    margin-left: 0;
+  }
+
+  .offcanvas-header .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* filter: brightness(1) invert(0); */
+    opacity: 1;
+  }
+  .offcanvas-header {
+    padding: 0;
+  }
+  .footer-bx h3 {
+    min-height: auto;
+}
+}
+@media(max-width: 767px){
+  h1, .h1 {
+    font-size: 45px;
+}
+.volunteering-text h3 {
+    min-height: auto;
+}
+}
+
+@media(max-width:575px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  h1, .h1 {
+    font-size: 38px;
+}
+.carousel-item {
+    height: 300px;
+}
+}

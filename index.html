@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+         />
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/slick-theme.css">
+      <link rel="stylesheet" href="assets/css/animate.css" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="icon" type="image/icon" href="assets/images/favicon.png" />
+      <title>Ffestiniog Railway Society</title>
+   </head>
+   <body>
+      <button
+         onclick="topFunction()"
+         id="ScrollToTop"
+         title="Go to top"
+         style="display: inline-block"
+         >
+      <i class="fa-solid fa-angle-up"></i>
+      </button>
+      <header>
+         <div class="main-header bg-dark">
+
+            <nav class="navbar navbar-expand-lg p-0 py-2">
+               <div class="container">
+                  <a href="index.html" class="navbar-brand p-0 me-0">
+                  <img
+                     src="assets/images/logo.png"
+                     alt="Site Logo"
+                     class="img-fluid w-100"
+                     />
+                  </a>
+                  <div class="nav-right">
+                     <div
+                        class="offcanvas offcanvas-start"
+                        id="navbarOffcanvas"
+                        tabindex="-1"
+                        aria-labelledby="offcanvasNavbarLabel"
+                        >
+                        <div class="offcanvas-header d-block d-lg-none">
+                           <button
+                              type="button"
+                              class="btn-close btn-close-white text-reset"
+                              data-bs-dismiss="offcanvas"
+                              aria-label="Close"
+                              ></button>
+                        </div>
+                        <div class="offcanvas-body d-lg-flex align-items-center gap-4">
+                           <ul class="navbar-nav flex-grow-1">
+                              <li class="nav-item">
+                                 <a class="nav-link active" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#">  About Us </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#"> News & Events</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#">  Volunteer</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#"> Fundraising</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#"> Membership</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> Faq</a>
+                             </li>
+                             <li class="nav-item">
+                              <a class="nav-link" href="#"> Members' Area</a>
+                           </li>
+                           </ul>
+                           <div class="nav-logos d-block d-sm-flex align-items-center gap-3 mt-3 mt-sm-0">
+                            <a href="#" class="header-btn btn-danger btn"> Book Tickets </a>
+                            <div class="sec-logo mt-3 mt-sm-0">
+                              <img src="assets/images/logo-2.png" alt="Logo " class="img-fluid ">
+                            </div>
+                          </div>
+
+
+                        </div>
+                     </div>
+                     <button
+                        class="navbar-toggler ms-3"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarOffcanvas"
+                        aria-controls="navbarOffcanvas"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                     <span class="navbar-toggler-icon">
+                     <i class="fa-solid fa-bars"></i>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div class="banner-sec position-relative">
+         <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner position-relative">
+               <div class="carousel-item active">
+                  <img
+                     src="assets/images/hero-banner.jpg"
+                     class="img-fluid w-100 h-100 object-cover"
+                     alt="Hero banner"
+                     />
+               </div>
+               <div
+                  class="container position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex align-items-center"
+                  >
+                  <div
+                     class="row w-100 justify-content-between align-items-center h-100 "
+                     >
+                     <div class="col-lg-4 col-md-6">
+                        <div class="carousel-text wow animate__fadeInUp">
+                           <h1 class="fw-normal text-white text-uppercase ">
+                            <span class="fw-700">Ffestiniog</span>
+                            <br>
+                             Railway <br>
+                             Society <br>
+                           </h1>
+                         
+                        </div>
+                     </div>
+                   
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="welcome-sec py-5 bg-danger overflow-hidden">
+        <div class="container">
+          <div class="row gx-lg-5">
+            <div class="col-md-6 my-4 md-0">
+              <div class="welcome-text pe-md-5 wow animate__fadeInUp">
+                <h4 class="fs-35 lh-1-3 fw-700 text-uppercase text-white">
+                  The Ffestiniog Railway Society exists to support the oldest independent railway in the world (being founded by an Act of Parliament in 1832) – now a historic and world heritage tourist attraction in North Wales.
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-6 my-4 md-0">
+              <div class="welcome-text wow animate__fadeInUp">
+                <p class="fs-35 lh-1-2 text-white mb-5">
+                  The Society was founded in 1954 and for over 70 years has supported the Ffestiniog Railway through Fundraising, encouraging volunteering and supporting the unique heritage of the Ffestiniog Railway. Our work continues and we need support of our Members to ensure we are able to pass this much loved unique steam railway onto the next generation.
+                </p>
+                <a href="#" class="welcome-btn btn btn-light">
+                  BECOME A MEMBER
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="volunteering-sec py-5 overflow-hidden">
+        <div class="container py-lg-4">
+          <div class="row gx-lg-5">
+            <div class="col-md-4 my-3 my-md-0 wow animate__fadeInUp">
+              <div class="volunteering-card">
+                <div class="volunteering-img">
+                  <img src="assets/images/volunteering-img.jpg" alt="volunteering img" class="img-fluid w-100 h-100 object-cover">
+                </div>
+                <div class="volunteering-text my-lg-5 my-4">
+                  <h3 class="fs-44 ls-003 fw-600 text-uppercase mb-3">
+                    Volunteering
+                  </h3>
+                  <p class="fs-23 fw-300 text-secondary mb-3">
+                    The impact of well-crafted website content cannot be overstated and can be the difference between a thriving
+                  </p>
+                  <a href="#" class="btn btn-dark">
+                    See More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0 wow animate__fadeInUp">
+              <div class="volunteering-card">
+                <div class="volunteering-img">
+                  <img src="assets/images/volunteering-img2.jpg" alt="volunteering img" class="img-fluid w-100 h-100 object-cover">
+                </div>
+                <div class="volunteering-text my-lg-5 my-4">
+                  <h3 class="fs-44 ls-003 fw-600 text-uppercase mb-3">
+                    Fundraising
+                  </h3>
+                  <p class="fs-23 fw-300 text-secondary mb-3">
+                    The impact of well-crafted website content cannot be overstated and can be the difference between a thriving
+                  </p>
+                  <a href="#" class="btn btn-dark">
+                    See More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0 wow animate__fadeInUp">
+              <div class="volunteering-card">
+                <div class="volunteering-img">
+                  <img src="assets/images/volunteering-img.jpg" alt="volunteering img" class="img-fluid w-100 h-100 object-cover">
+                </div>
+                <div class="volunteering-text my-lg-5 my-4">
+                  <h3 class="fs-44 ls-003 fw-600 text-uppercase mb-3">
+                    Conservation through Education
+                  </h3>
+                  <p class="fs-23 fw-300 text-secondary mb-3">
+                    The impact of well-crafted website content cannot be overstated and can be the difference between a thriving
+                  </p>
+                  <a href="#" class="btn btn-dark">
+                    See More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-sec overflow-hidden">
+        <div class="container-fluid p-0">
+          <div class="gallery-heading text-center wow animate__fadeInUp">
+            <h2 class="fs-44 ls-003 fw-600 text-uppercase mb-md-5 mb-4">
+              Gallery
+            </h2>
+          </div>
+          <div class="row gx-lg-3">
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0 wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-1.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0 wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-2.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0 wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-3.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0  wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-4.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0 wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-5.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 my-3 my-lg-0 wow animate__fadeInUp">
+              <div class="gallery-img">
+                <img src="assets/images/gallery-img-6.jpg" alt="Gallery img " class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news-sec py-5">
+        <div class="container py-lg-4">
+          <div class="row">
+            <div class="col-md-6 my-4 my-md-0">
+              <div class="news-wrap p-md-5 p-4 border-1 border border-dark h-100">
+                <div class="news-text wow animate__fadeInUp">
+                  <h2 class="fs-44 ls-003 fw-600 text-uppercase mb-lg-5 mb-4">
+                    Latest News
+                  </h2>
+                  <p class="fs-23 lh-1-5 fw-300 text-secondary mb-lg-5 pb-lg-4 mb-4">
+                    When you join the Ffestiniog Railway Society, you become not just a supporter
+                    of the oldest independent railway in the world, you become part of national
+                    network of like-minded enthusiasts.
+                    <br />
+                    <br />
+                    Go to our membership page to see the full range of activities and benefits.
+                  </p>
+                  <a href="#" class="news-btn btn btn-danger">
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 my-4 my-md-0">
+              <div class="news-img h-100">
+                <img src="assets/images/news-img.jpg" alt="News img" class="img-fluid w-100 h-100 object-cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="pt-5 bg-danger">
+        <div class="container pt-lg-4 wow animate__fadeInUp">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 my-md-4 my-lg-0">
+              <div class="footer-wrap d-flex flex-wrap row-cols-md-2 row-cols-1">
+                <div class="footer-bx my-4 my-md-0 text-center text-md-start">
+                  <h3 class="text-white fs-32 fw-600  mb-3">
+                    Get In Touch
+                  </h3>
+                  <ul>
+                    <li>
+                      Harbour Station, Porthmadog,
+                      <br />
+                      Gwynedd LL49 9NF, United Kingdom
+                      <br />
+                      General Enquiries: 
+                      <br />
+                     <a href="secretary@ffestiniograilway.org.uk" class="text-white text-decoration-underline">
+                      secretary@ffestiniograilway.org.uk
+                     </a>
+                     <br>
+                     Membership Enquiries: 
+                     <br>
+                     <a href="registrar@ffestiniograilway.org.uk" class="text-white text-decoration-underline">
+                      registrar@ffestiniograilway.org.uk
+                     </a>
+                     <br>
+                     Magazine Enquiries: 
+                     <br>
+                     <a href="editor@ffestiniograilway.org.uk" class="text-white text-decoration-underline">
+                      editor@ffestiniograilway.org.uk
+                     </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-bx my-4 my-md-0 text-center text-md-start">
+                  <h3 class="text-white fs-32 fw-600 mb-3">
+                    Our Family
+                  </h3>
+                  <ul>
+                    <li>
+                      Ffestiniog and Welsh Highland Railway 
+                      <br />
+                     <a href="https://www.festrail.co.uk/" class="text-white text-decoration-underline">
+                     (https://www.festrail.co.uk/)
+                     </a>
+                     <br>
+                     Ffestiniog Railway Heritage Group 
+                     <br>
+                     <a href="https://www.frheritage.org.uk/" class="text-white text-decoration-underline">
+                      (https://www.frheritage.org.uk/)
+                     </a>
+                     <br>
+                     Welsh Highland Railway Society
+                     <br>
+                     <a href="https://whrsoc.org.uk/" class="text-white text-decoration-underline">
+                      (https://whrsoc.org.uk/)
+                     </a>
+                     <br>
+                     Welsh Highland Heritage Group 
+                     <br>
+                     <a href="https://www.welshhighlandheritage.co.uk/" class="text-white text-decoration-underline">
+                      (https://www.welshhighlandheritage.co.uk/)
+                     </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-md-4 my-lg-0">
+              <div class="footer-wrap d-flex flex-wrap row-cols-md-3 row-cols-1">
+                <div class="footer-bx my-4 my-md-0 text-center text-md-start">
+                  <h3 class="text-white fs-32 fw-600 mb-3 ">
+                    Important Information
+                  </h3>
+                  <ul>
+                    <li>
+                     <a href="#" class=" text-white">
+                      Privacy Notice
+                     </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-bx my-4 my-md-0 text-center text-md-start">
+                  <h3 class="text-white fs-32 fw-600 mb-3 ">
+                    Connect with us
+                  </h3>
+                    <div class="social-links">
+                      <ul class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <li>
+                         <a href="#" class="text-white fs-25">
+                          <i class="fa-brands fa-facebook-f"></i>
+                         </a>
+                        </li>
+                        <li>
+                          <a href="#" class="text-white fs-25">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                         </li>
+                      </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bx my-4 my-md-0 text-center text-md-start">
+                  
+                  <div class="footer-logo-wrap d-flex justify-content-center flex-column align-items-center">
+                    <div class="footer-logo">
+                      <a href="#">
+                        <img src="assets/images/footer-logo.png" alt="Footer Logo " class="img-fluid ">
+                      </a>
+                      
+                    </div>  
+                    <ul class="mt-2">
+                      <li class="fs-600">
+                        Charity No: 1064178
+                        <br />
+                        Company No: 542449
+                      </li>
+                    </ul>
+                  </div>
+                   
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="copy-right text-center text-md-start">
+            <p class="fs-16 text-white pt-sm-5 pt-4 mt-3 mb-0 pb-4">
+              © copyright 2025 All rights reserved | Ffestiniog Railway Society
+              <br />
+              Web design by ElevateOM
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="assets/js/jquery-3.7.1.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script>
+         new WOW({ animateClass: "animate__animated" }).init();
+         
+      </script>
+   </body>
+</html>
